@@ -1,2 +1,2 @@
 # rebecca-butler.github.io
-A portfolio of projects I have worked on, including pictures and videos
+This website is written in Javascript, HTML, and CSS. It displays several projects that I have worked on with descriptions, pictures, and videos. Please visit https://rebecca-butler.github.io
