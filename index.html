@@ -193,7 +193,7 @@
                     <div class="footer-col col-md-4">
                         <h3>My Resume</h3>
                         <p>
-                          If you think I might be <br> a good fit for your company, please <br> contact me to see my resume.</p>
+                          If you think I might be a good fit <br> for your company, please contact me <br> to see my resume.</p>
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
                             <hr class="star-primary">
                             <img src="https://cdn.glitch.com/ff1ca69f-ddf6-4632-8378-34074e19fe2e%2F69445809_449823795627483_6030977439067275264_n.jpg?v=1566867410439" class="img-responsive img-centered" alt="">
                             <p>This device is a walker intended for use by the elderly or those rehabilitating from an injury. 
-                               It uses four Arduino boards connected by Bluetooth to implement various sensors, including an accelerometer, an IMU, a time of flight sensor, and force sensors in the handles.
+                               It uses four Arduino boards connected by Bluetooth to implement various sensors, including an accelerometer, IMU, and force sensors.
                                When the user moves with the walker, data is recorded about their current position using a Simulink model. 
                                The goal is to predict how the user will move next, and if they deviate from the desired path, the walker can steer them in the right direction. <br> <br>
                                I worked on this project with the Neural and Rehabilitation Engineering lab team under Professor James Tung, where I was a research assistant.<br> <br>
@@ -245,7 +245,7 @@
                                     </strong>
                                 </li>
                                 <li>Technologies:
-                                    <strong>Arduino Mega and Uno boards, MATLAB, Simulink, sensors
+                                    <strong>Arduino, MATLAB, Simulink, sensors
                                     </strong>
                                 </li>
                             </ul>
@@ -274,12 +274,9 @@
                             <video width="700px" controls muted>
                                <source src="https://cdn.glitch.com/ff1ca69f-ddf6-4632-8378-34074e19fe2e%2FVID_20190724_162254.mp4?v=1567021599265" type="video/mp4">
                             </video>
-                            <p><br>Magneto is a robot built to navigate a path along a black line while detecting the polarity of hidden magnets.
-                               When the robot detects a strong magnetic field, it stops for 7 seconds. 
-                               If the magnet has north polarity, the LED blinks; if south, the LED is solid.
-                               When the time has passed, the robot continues to follow the path until it reaches the end of the course or detects another magnet. <br><br>
-                               I programmed the robot in C and performed all surface-mount soldering on the PCB. 
-                               I calculated the necessary resistor values for several circuits, including optical encoders and a hall-effect sensor, before soldering them on.
+                            <p><br>Magneto is a robot designed to follow a path while detecting the polarity of hidden magnets.
+                               When the robot detects a strong magnetic field, it stops and flashes the LED before continuing the course. <br><br>
+                               I programmed the robot in C and soldered components on the PCB, including optical encoders and a hall-effect sensor.
                             </p>
                             <ul class="list-inline item-details">
                                 <li>Date:
@@ -317,9 +314,9 @@
                                <source src="https://cdn.glitch.com/ff1ca69f-ddf6-4632-8378-34074e19fe2e%2Fvideo-1550421287.mp4?v=1567031757669" type="video/mp4">
                             </video>
                             <p><br> The Pothole Finder is a device that can be attached to one's car in order to identify the locations of potholes in the city.
-                               It uses an Arduino Uno with an accelerometer to detect sudden changes in the downward and upward acceleration of a car, indicating that it has hit a pothole.
+                               It uses an Arduino Uno with an accelerometer to detect sudden changes in the downward/upward acceleration of a car, indicating that it has hit a pothole.
                                When potholes are detected, the GPS sensor records the coordinates and sends them to an SQL database. 
-                               A Python script then takes this data and plots the pothole locations on a map using the Google Maps Plotter API.
+                               A Python script then uses this data to plot locations on a map using the Google Maps Plotter API.
                                <br><br>
                                I completed this project during the Make UofT Hackathon in a group of 3. My role was to write the Python script to collect data from the SQL database.
                                
@@ -330,7 +327,7 @@
                                     </strong>
                                 </li>
                                 <li>Technologies:
-                                    <strong>Arduino Uno, GPS, accelerometer, Python, MySQL
+                                    <strong>Arduino, GPS, accelerometer, Python, MySQL
                                     </strong>
                                 </li>
                             </ul>
@@ -358,13 +355,13 @@
                             <hr class="star-primary">
                             <img src="https://cdn.glitch.com/ff1ca69f-ddf6-4632-8378-34074e19fe2e%2Ftictac%20resized.jpg?v=1566932722685" width="462px">
                             <img src="https://cdn.glitch.com/ff1ca69f-ddf6-4632-8378-34074e19fe2e%2F69762521_2452875624943254_4312511013338480640_n.jpg?v=1567026883926" width="250px">
-                            <p>Pictured: machined tic-tac-toe board (left), 3D-printed phone stand (right) <br> <br>
+                            <p>
                                I have completed several projects in the machine shop. 
-                               Pictured on the left is an aluminum tic-tac-toe board, which I made using a mill to cut out the steps and a drill press for a the holes.
-                               I machined the aluminum and brass pegs for the tic-tac-toe board using a lathe.
+                               Pictured on the left is an aluminum tic-tac-toe board made using a mill and drill press.
+                               I machined the aluminum and brass pegs for the on board using a lathe.
                                All of the components were designed in SolidWorks.
                                <br><br>
-                               The phone stand, pictured on the right, was also designed in SolidWorks and printed using a 3D printer.
+                               The phone stand, pictured on the right, was also designed in SolidWorks and prototyped using a 3D printer.
                             </p>
                             <ul class="list-inline item-details">
                                 <li>Date:
@@ -416,7 +413,7 @@
                                     </strong>
                                 </li>
                                 <li>Technologies:
-                                    <strong>LEGO EV3 robot brick, 3D printer, laser cutter, ultrasonic and colour sensors, C programming, AutoCAD, SolidWorks
+                                    <strong>LEGO EV3, 3D printer, laser cutter, sensors, C programming, AutoCAD, SolidWorks
                                     </strong>
                                 </li>
                             </ul>
@@ -447,7 +444,6 @@
                                The game randomly distributes mines on a 9x9 grid and allows users to place flags or dig up mines.
                                The player selects squares on the grid using a joystick, and uses one of two pushbuttons to place flags or dig.
                                <br><br>
-                               (Photos coming soon)
                           </p>
                             <ul class="list-inline item-details">
                                 <li>Date:
@@ -455,7 +451,7 @@
                                     </strong>
                                 </li>
                                 <li>Technologies:
-                                    <strong>Keil development board with ARM Cortex M3, C programming, joystick and push-button input
+                                    <strong>Keil development board, C programming, joystick and pushbutton interfacing
                                     </strong>
                                 </li>
                             </ul>
